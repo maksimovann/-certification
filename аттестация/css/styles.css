@@ -1,0 +1,476 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    font-weight: 700;
+    src: url(./fonts/Poppins-Bold.ttf);
+  }
+  @font-face {
+    font-family: "Poppins-Regular";
+    font-weight: 400;
+    src: url(./fonts/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Jost-Bold";
+    font-weight: 700;
+    src: url(./fonts/Jost-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Jost-Regular";
+    font-weight: 400;
+    src: url(./fonts/Jost-Regular.ttf);
+  }
+  .uni-link {
+    font-family: Poppins-Regular;
+    color: #686565;
+  }
+  
+  html * {
+    overflow-x: hidden;
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  .uni-header {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+  }
+  
+  .uni-logo a {
+    position: absolute;
+    top: 45px;
+    left: 78px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #0e0578;
+  }
+  
+  .uni-navigation {
+    margin-right: 100px;
+    margin-left: 500px;
+  }
+  
+  .uni-navigation > a {
+    display: inline-block;
+    width: 143px;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 59px;
+    margin-left: 150px;
+  }
+  
+  .uni-photo {
+    float: right;
+    margin-right: 50px;
+  }
+  
+  .uni-begin {
+    margin-left: 78px;
+    margin-top: auto;
+    min-height: 100vh;
+    margin-bottom: 100px;
+  }
+  
+  .uni-about {
+    margin-top: auto;
+    min-height: 100vh;
+  }
+  
+  .uni-begin p:first-of-type {
+    margin-bottom: 0;
+  }
+  
+  .uni-begin p:last-of-type {
+    max-width: 790px;
+  }
+  
+  .uni-begin h2 {
+    margin-top: 0;
+    max-width: 450px;
+  }
+  
+  .uni-purple {
+    color: #2000e7;
+  }
+  
+  .uni-yellow {
+    color: #f2bd00;
+    font-weight: 700;
+    font-size: 48px;
+  }
+  
+  .uni-btn-purple {
+    font-size: 24px;
+    border-radius: 10px;
+    width: 246px;
+    height: 72px;
+    color: white;
+    background-color: #2000e7;
+    margin-top: 20px;
+    box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+  
+  .uni-btn-projects {
+    position: relative;
+    font-size: 24px;
+    border-radius: 10px;
+    border-color: #2000e7;
+    border-width: 2px;
+    width: 246px;
+    height: 72px;
+    margin-left: 50px;
+    color: #2000e7;
+    margin-top: 20px;
+    box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+  }
+  
+  .uni-btn-projects::before {
+    position: absolute;
+    background-color: #2000e7;
+    opacity: 0.04;
+  }
+  
+  .boldP {
+    font-weight: 700;
+    font-size: 48px;
+  }
+  
+  .uni-section-about h2 {
+    margin-left: 48px;
+    margin-top: 200px;
+    margin-bottom: 0;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 48px;
+    width: 370px;
+    letter-spacing: 0.35em;
+  }
+  
+  .uni-section-about {
+    position: relative;
+    margin-top: auto;
+    min-height: 100vh;
+    height: 910px;
+    margin-bottom: 150px;
+  }
+  
+  .uni-section-about div {
+    display: block;
+    position: absolute;
+    background-color: #43bafd;
+    width: 100vw;
+    height: 100%;
+    opacity: 0.06;
+  }
+  
+  .uni-section-about p {
+    margin-left: 48px;
+    word-wrap: break-word;
+    width: 600px;
+  }
+  
+  .uni-bg-about {
+    float: right;
+    width: 925px;
+    height: 925px;
+    position: relative;
+    top: -670px;
+  }
+  
+  .uni-section-about button {
+    margin-left: 48px;
+  }
+  
+  .uni-projects {
+    height: 960px;
+    width: 100%;
+  }
+  
+  .uni-projects div {
+    background-color: #ffd696;
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    opacity: 0.2;
+  }
+  
+  .uni-projects h2 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.2em;
+    display: inline-block;
+    text-align: center;
+    line-height: 72px;
+    margin-bottom: 0;
+  }
+  
+  .uni-projects p {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 0;
+  }
+  
+  .uni-projects-column ul li {
+    width: 246px;
+    height: 180px;
+    margin-bottom: 50px;
+    overflow-y: hidden;
+  }
+  
+  .uni-projects-column {
+    column-count: 3;
+    column-width: 246px;
+    margin-left: 108px;
+  }
+  
+  .uni-contact {
+    margin-top: 500px;
+    margin-left: 66px;
+    margin-bottom: 100px;
+  }
+  
+  .uni-contact h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 0.27em;
+    margin-bottom: 0;
+  }
+  
+  .uni-contact p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 0;
+    margin-bottom: 150px;
+  }
+  
+  .uni-bg-contact {
+    float: right;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    top: -200px;
+  }
+  
+  .uni-contact nav {
+    margin-bottom: 75px;
+  }
+  
+  .uni-contact input {
+    z-index: 1;
+    display: inline;
+    width: 700px;
+    height: 94px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    box-shadow: 13px 21px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    padding-left: 40px;
+  }
+  
+  .uni-contact textarea {
+    z-index: 1;
+    width: 700px;
+    height: 265px;
+    resize: none;
+    margin-bottom: 40px;
+    box-shadow: 13px 21px 4px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    border: none;
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+  
+  .uni-contact textarea::placeholder {
+    color: #000000;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  
+  .uni-contact input::placeholder {
+    height: 48px;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+  }
+  
+  .uni-contact div {
+    z-index: -1;
+    top: 3795px;
+    height: 1250px;
+    width: 100%;
+    background-color: #43bafd;
+    opacity: 0.06;
+    display: block;
+    position: absolute;
+    left: 0;
+  }
+  
+  .uni-contact button {
+    top: -30px;
+    width: 246px;
+    height: 72px;
+    margin-left: 190px;
+    background-color: #ffffff;
+    box-shadow: 13px 21px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+  }
+  
+  .uni-contact button a {
+    color: #000000;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  
+  .uni-footer {
+    height: 600px;
+    font-family: Jost-Regular;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    min-height: 100vh;
+    margin-top: auto;
+  }
+  
+  .uni-footer div {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background-color: #ffd696;
+    opacity: 0.2;
+  }
+  
+  .uni-footer ul {
+    columns: 150px 3;
+  }
+  
+  .uni-table {
+    position: relative;
+    left: 800px;
+    top: -65px;
+  }
+  
+  .uni-td {
+    padding-right: 6em;
+    padding-bottom: 1.5em;
+  }
+  
+  .uni-footer h1,
+  button {
+    position: relative;
+    top: 120px;
+  }
+  
+  .uni-footer h1 a {
+    font-family: Poppins-Bold;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+    padding-left: 70px;
+    color: #0e0578;
+  }
+  
+  .uni-footer input {
+    font-family: Jost-Regular;
+    position: relative;
+    top: 121px;
+    left: 28px;
+    border-radius: 30px;
+    width: 323px;
+    height: 91px;
+    background-color: #000000;
+    font-size: 31px;
+    line-height: 44.8px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .uni-footer input[type="email"] {
+    padding-left: 28px;
+  }
+  
+  .uni-footer input::placeholder {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 44.8px;
+    color: #ffffff;
+  }
+  
+  .uni-footer button {
+    font-family: Jost-Regular;
+    left: -45px;
+    width: 178px;
+    height: 97px;
+    border-radius: 30px;
+    background-color: #f965fc;
+    font-size: 31px;
+    line-height: 44.8px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .uni-footer tr td a {
+    color: #000000;
+  }
+  
+  .uni-footer tr:first-of-type td {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 44px;
+  }
+  
+  .uni-hr {
+    border-width: 3px;
+    border-color: #000000;
+    width: 95vw;
+  }
+  
+  .uni-footer p {
+    padding-top: 50px;
+    display: inline-block;
+    padding-left: 50px;
+  }
+  
+  .uni-social {
+    display: inline-block;
+    padding-left: 600px;
+    overflow-y: hidden;
+  }
+  
+  .uni-social a {
+    margin-left: 60px;
+  }
+  
+  .uni-i1 {
+    position: relative;
+    top: 20px;
+  }
+  
+  .uni-i2 {
+    position: relative;
+    top: -5px;
+  }
+  
+  .uni-i3 {
+    position: relative;
+    top: -25px;
+  }
+  
+  .uni-i4 {
+    position: relative;
+    top: -6px;
+  }
+  
